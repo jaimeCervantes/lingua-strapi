@@ -44,17 +44,28 @@
       "type": "integer",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
-      }
+      },
+      "default": 0
     },
     "rows": {
       "type": "integer",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
-      }
+      },
+      "default": 0
+    },
+    "size": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "default": "small"
     }
   }
 }
