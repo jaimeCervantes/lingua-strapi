@@ -13,4 +13,13 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  email: {
+    config: {
+      provider: 'sendmail',
+      settings: {
+        defaultFrom: 'pensemoswebjs@gmail.com',
+        defaultReplyTo: 'pensemoswebjs@gmail.com',
+      },
+    },
+  },
 });
