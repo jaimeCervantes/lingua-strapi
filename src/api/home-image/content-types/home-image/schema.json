@@ -66,6 +66,14 @@
       },
       "type": "string",
       "default": "small"
+    },
+    "order": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer"
     }
   }
 }

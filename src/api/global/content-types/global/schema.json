@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "tours",
+  "kind": "singleType",
+  "collectionName": "globals",
   "info": {
-    "singularName": "tour",
-    "pluralName": "tours",
-    "displayName": "Tour",
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
     "description": ""
   },
   "options": {
@@ -16,29 +16,23 @@
     }
   },
   "attributes": {
-    "title": {
-      "type": "string",
+    "copyRight": {
       "pluginOptions": {
         "i18n": {
           "localized": true
-        }
-      }
-    },
-    "description": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "order": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
         }
       },
-      "type": "integer"
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
     }
   }
 }
