@@ -89,6 +89,14 @@
       "type": "uid",
       "required": true,
       "targetField": "title"
+    },
+    "order": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer"
     }
   }
 }
