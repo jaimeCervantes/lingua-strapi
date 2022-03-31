@@ -46,7 +46,8 @@
           "localized": true
         }
       },
-      "type": "uid"
+      "type": "uid",
+      "targetField": "name"
     },
     "countryFlagCode": {
       "pluginOptions": {
@@ -80,11 +81,10 @@
     "order": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
-      "type": "integer",
-      "default": 100
+      "type": "integer"
     }
   }
 }
