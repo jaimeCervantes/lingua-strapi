@@ -97,6 +97,14 @@
         }
       },
       "type": "integer"
+    },
+    "link": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }
